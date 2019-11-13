@@ -55,7 +55,7 @@ void merge(int *a,int low,int mid,int high)
 
  while(i<n1)
   a[k++]=L[i++];
-  
+
  while(j<n2)
   a[k++]=R[j++];  
 }
@@ -206,12 +206,15 @@ if(row==0)
     for(int i=0;i<size;i++){
       cout<<e[i]<<" ";
     }
+    cout<<endl;
     }
    else
    {
     merge_sort(a,0,size-1);
+    cout<<"Final Sorted array:";
     for(int i=0;i<size;i++)
-     cout<<a[i]<<" "<<endl;
+     cout<<a[i]<<" ";
+    cout<<endl; 
     exit(0); 
    }
   }
