@@ -55,7 +55,7 @@ void merge(int *a,int low,int mid,int high)
 
  while(i<n1)
   a[k++]=L[i++];
-
+  
  while(j<n2)
   a[k++]=R[j++];  
 }
